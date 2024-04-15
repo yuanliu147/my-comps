@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Button onClick={() => setCount(count + 1)}>click me: {count}</Button>
+      <Button onClick={() => setCount(count + 1)}>click me</Button>
       <Image src="/vite.svg" />
     </>
     
