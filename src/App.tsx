@@ -1,11 +1,15 @@
 import { useState } from 'react'
-import { Button } from 'antd'
+import { Button, Image } from 'antd'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Button onClick={() => setCount(count + 1)}>click me: {count}</Button>
+    <>
+      <Button onClick={() => setCount(count + 1)}>click me: {count}</Button>
+      <Image src="/vite.svg" />
+    </>
+    
   )
 }
 
